@@ -1,0 +1,38 @@
+.footer_global {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #1a1a1a;
+    padding: 20px 0;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+
+.footer_global ul {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.footer_global a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 500;
+    transition: opacity 0.2s ease;
+}
+
+.footer_global a:hover {
+    opacity: 0.8;
+}
+
+.sobre_nos,
+.redes_sociais,
+.contatos {
+    display: flex;
+    align-items: center;
+}

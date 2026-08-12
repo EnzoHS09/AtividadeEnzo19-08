@@ -1,0 +1,170 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  background-image: linear-gradient(to right, rgb(28, 121, 207) 10%, rgb(27, 61, 155), rgb(1, 20, 71));
+  color: white;
+  min-height: 100vh;
+}
+
+/* HEADER */
+.header {
+  width: 100%;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.logo {
+  width: 100px;
+  margin-left: 5vw;
+}
+
+.logo img {
+  width: 100%;
+  height: auto;
+}
+
+.escritasLateral {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 2.5vw;
+  margin-right: 5vw;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.work_with_us_menor {
+  background-color: rgb(235, 108, 150);
+  border-radius: 20px;
+  padding: 10px 24px;
+  cursor: pointer;
+}
+
+/* ÁREA GERAL */
+.geral {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.flex {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 60px;
+  justify-content: center;
+
+}
+
+/* LADO ESQUERDO */
+.escritasFlex {
+  width: 55%;
+  padding-left: 15vw;
+  display: flex;
+  flex-direction: column;
+}
+
+.blocoTextos {
+  margin-bottom: 25px;
+}
+
+.tituloH1 {
+  font-size: 48px;
+  font-weight: 700;
+  margin: 0;
+  line-height: 1.15;
+}
+
+.subtituloH3 {
+  font-size: 18px;
+  font-weight: 400;
+  margin-top: 10px;
+  margin-bottom: 0;
+  opacity: 0.9;
+  margin-top: 40px;
+}
+
+.link {
+  margin-top: 15px;
+}
+
+.work_with_us_maior {
+  display: inline-block;
+  background-color: rgb(235, 108, 150);
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 50px;
+  padding: 25px 80px;
+  margin-top: 15px;
+  text-decoration: none;
+  color: white;
+}
+
+/* LADO DIREITO (FOGUETE) */
+.imagem {
+  width: 45%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-right: 15vw;
+}
+
+.foguete {
+  width: 100%;
+  max-width: 500px;
+}
+
+.foguete img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* BARRA DE SELOS (EMBAIXO DE TUDO) */
+.barraselos {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 0 6vw 40px 6vw; /* Alinhado com as margens laterais do site */
+}
+
+.seloItem {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  flex: 1;
+}
+
+.seloItem img {
+  height: 38px;
+  width: auto;
+  object-fit: contain;
+  margin-bottom: 8px;
+}
+
+.metricaValor {
+  font-size: 28px;
+  font-weight: bold;
+  color: #ffffff;
+  height: 38px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.seloItem p {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 11px;
+  line-height: 1.3;
+  margin: 0;
+}

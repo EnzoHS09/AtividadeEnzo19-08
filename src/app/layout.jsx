@@ -1,6 +1,8 @@
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
-import "./footer.css";
+import Footer from "../components/footer";
+import Header from "../components/header";
+
 import Link from "next/link";
 
 const geistSans = Geist({
@@ -24,30 +26,11 @@ export default function RootLayout({ children }) {
 
       <body>
 
-        <header>
-          <div className="header">
-            <div className="logo">
-              <img src="/imagens/tierLogo.svg" alt="Tier 1 Logo" />
-            </div>
-            <div className="escritasLateral">
-              <div >WHAT WE DO </div>
-              <div><Link href={"/blog"}> BLOG </Link></div>
-              <div>PODCAST</div>
-              <div><Link href={"/careers"}> CAREERS </Link></div>
-              <div className="work_with_us_menor"><Link href={"/work_with_us"}> WORK WITH US </Link></div>
-            </div>
-          </div>
-        </header>
+        <Header/>
 
         {children}
 
-        <footer className="footer_global">
-          <ul>
-            <div><li className="sobre_nos"><Link href="/direcionou">Sobre Nós</Link></li></div>
-            <div><li className="redes_sociais"><Link href="/direcionou">Redes Sociais</Link></li></div>
-            <div><li className="contatos"><Link href="/direcionou">Contatos</Link></li></div>
-          </ul>
-        </footer>
+        <Footer/>
 
       </body>
 

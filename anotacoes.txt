@@ -1,10 +1,24 @@
+KISS
+Keep It Simples Stupid
+
+Dry
+Don't Repeat Your Self
+
+CTA
+Call to Action
+
 O que está dentro da pasta app é roteado
 
 / = Pasta app (raíz)
 @ = Pasta src
 
 
-Para criar uma página not found, loading, error, essas, deve criar uma pasta em src chamada components
+Para criar uma página not found, loading, error, entre outras desse tipo, deve:
+- Criar uma pasta chamada components dentro de src, app roteia então fica vulnerável
+- Dentro de figure coloque o figure disso, acho que também pode ser css e tals
+- Dentro de app vai criar a página com o nome que o Next fala na documentação
+
+
 
 
 

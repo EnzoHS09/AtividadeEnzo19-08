@@ -1,9 +1,10 @@
 O que está dentro da pasta app é roteado
 
+/ = Pasta app (raíz)
 @ = Pasta src
 
 
-Para criar uma página not found deve criar uma pasta em src chamada components
+Para criar uma página not found, loading, error, essas, deve criar uma pasta em src chamada components
 
 
 

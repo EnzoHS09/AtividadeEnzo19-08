@@ -6,7 +6,7 @@ const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
 
 export default async function Home() {
   await sleep(3500)
-
+  throw new Error("Simulando um erro catastrófico!!!!")
 
 
   return (

@@ -88,3 +88,12 @@ a {
   width: 300px;
   height: auto;
 }
+
+.text-gray-700.text-sm {
+  font-size: 50px;
+}
+
+.mostrando_erro{
+  font-size: 50px;
+}
+
